@@ -1,10 +1,13 @@
 import React from "react"
 import Card from "../components/Card"
+import { Main } from "next/document"
 
 function HomePage(){
     return (
         <>
-        <Card />
+        <div className="m-5 flex justify-center font-mono">
+            <Card />
+        </div>
         </>
     )
 }
